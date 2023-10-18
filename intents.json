@@ -1,0 +1,266 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there, how can I assist you?",
+                "Good to see you! What can I do for you?"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to assist!",
+                "It's my pleasure to help."
+            ]
+        },
+        {
+            "tag": "exit",
+            "patterns": [
+                "Exit",
+                "Goodbye",
+                "Quit",
+                "Close",
+                "bye",
+                "see you",
+                "goodbye",
+                "good bye"
+            ],
+            "responses": [
+                "See you later!",
+                "Goodbye!",
+                "Bye! See you soon."
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [
+                "",
+                " "
+            ],
+            "responses": [
+                "I'm not sure I understand. Please write 'Search' to know more."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Help",
+                "Menu",
+                "Options",
+                "What can you do?"
+            ],
+            "responses": [
+                "You can ask me about the weather, news, time, jokes, or any questions you have. Just type your query, and I'll do my best to assist."
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                "I ate a clock yesterday, it was very time-consuming.",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes."
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "What's up?",
+                "How are you?",
+                "How do you do?",
+                "How you doing?"
+            ],
+            "responses": [
+                "All good! How can I assist you today?"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you?",
+                "Who designed you?",
+                "Who programmed you?",
+                "Who developed you?"
+            ],
+            "responses": [
+                "I was created by Ahmed Nasser."
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "OK",
+                "Yeah"
+            ],
+            "responses": [
+                "Yeah!",
+                "Alright!",
+                "Okay"
+            ]
+        },
+        {
+            "tag": "developer",
+            "patterns": [
+                "Who is Ahmed Nasser?",
+                "Ahmed Nasser",
+                "Contact",
+                "Developer"
+            ],
+            "responses": [
+                "You can learn more about Ahmed Nasser by visiting his LinkedIn profile: https://linkedin.com/in/ahmednasser1601, also find his projects on GitHub: https://github.com/AhmedNasser1601."
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "You are the best",
+                "You are great",
+                "You are good"
+            ],
+            "responses": [
+                "Thank you! I'm here to assist you."
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "It was nice talking to you",
+                "Nice talking to you",
+                "Good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Feel free to return anytime."
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "No",
+                "Nope"
+            ],
+            "responses": [
+                "Alright."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "I am good",
+                "I'm good",
+                "I am fine",
+                "I'm fine",
+                "Good"
+            ],
+            "responses": [
+                "Good to know! How can I assist you further?"
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "suggest",
+                "You are useless",
+                "You are bad",
+                "Feedback",
+                "Improvement"
+            ],
+            "responses": [
+                "Your feedback is valuable! Thank you for helping me improve!"
+            ]
+        },
+        {
+            "tag": "riddle",
+            "patterns": [
+                "riddle",
+                "Ask me a riddle",
+                "Ask me a question"
+            ],
+            "responses": [
+                "Here's a riddle: What two things can you never eat for breakfast? Lunch and Dinner!",
+                "Another one: What word is spelled incorrectly in every single dictionary? Incorrectly.",
+                "How about this: How can a girl go 25 days without sleep? She sleeps at night!"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "age",
+                "How old are you?",
+                "When were you made?",
+                "What is your age?"
+            ],
+            "responses": [
+                "I was created in 2023, so I'm relatively new!"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "Weather",
+                "What's the weather like today?",
+                "Tell me the weather forecast."
+            ],
+            "responses": [
+                "You can view the weather online at https://openweathermap.org."
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "News",
+                "Give me the latest news",
+                "What's happening in the world?"
+            ],
+            "responses": [
+                "You can view the news online at https://news.google.com."
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "Time",
+                "Date",
+                "What's the current time?",
+                "Tell me the time now."
+            ],
+            "responses": [
+                "The Current Time & Date for your Time-Zone is.. "
+            ]
+        },
+        {
+            "tag": "search",
+            "patterns": [
+                "Search",
+                "Google search",
+                "Find information on",
+                "Look up"
+            ],
+            "responses": [
+                "Please tell me what you'd like to search for.."
+            ]
+        }
+    ]
+}
