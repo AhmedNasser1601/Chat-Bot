@@ -4,7 +4,8 @@
 
 > ## **Machine Learning Internship**
 >> ### **[ahmednasser1601@gmail.com](mailto:ahmednasser1601@gmail.com)**
+>>> <a href="#"><b>LinkedIn Post</b></a>
 
-> <table align="center"><tr><td><a href="#"><b>LinkedIn Post</b></a></td><td><a href="Chat-Bot.ipynb"><b>Notebook</b></a></td><td><a href="intents.json"><b>Intents</b></a></td></tr></table>
+> <table align="center"><tr><td>Code: <a href="Chat-Bot.ipynb"><b>Notebook File</b></a></td></tr><tr><td>Data: <a href="intents.json"><b>Intents File</b></a></td></tr></table>
 
 <img src="https://hits.sh/github.com/AhmedNasser1601/Chat-Bot.svg?label=Visits&logo=python"/>
